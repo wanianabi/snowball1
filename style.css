@@ -142,12 +142,12 @@ display: block;
 }
 
 /*footer*/
-footer{
+.footer{
   height: 30px;
-  background-color: lightgrey;
+  background-color: red;
   color: black;
   padding: 10px;
-  margin-top: 45px;
+  margin-top: 200px;
   font-size: 20px;
 }
 
@@ -160,7 +160,8 @@ footer{
   /* For mobile phones: */
 
   .scrollmenu {
-    width: 100%;
+    width: 60%;
+    font-size: 25px;
   }
 
   .header1, .header2 {
@@ -169,7 +170,7 @@ footer{
   }
 
   #footertekst {
-    width: 63%;
+    width: 60%;
   }
 
   #infotekst {
@@ -183,11 +184,25 @@ footer{
 
 @media only screen and (min-width: 600px) {
 
-.header {
-  padding-top: 10px;
-  width: 80%;
-}
+  .scrollmenu {
+    width: 60%;
+    font-size: 25px;
+  }
 
-#infotekst {
-  width: 60%;
+  .header1, .header2 {
+    width:80%;
+    height: 170px;
+  }
+
+  #footertekst {
+    width: 60%;
+  }
+
+  #infotekst {
+    width: 80%;
+  }
+
+  .button {
+    width: 18%;
+  }
 }
