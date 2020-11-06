@@ -1,9 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
 <html>
 <head>
 <meta charset="utf-8">
-<title>forside</title>
+<title>Home</title>
+<style>
+  #index{
+    border-bottom: 2px solid black;
+  }
+</style>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,29 +16,34 @@
 <div class="scrollmenu">
   <ul>
     <li><img src="logo.jpg" id="logoen" alt="The logo of the Company"></li>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="8trapy.html">8trapy</a></li>
+    <li><a href="index.html" id="index">Home</a></li>
+    <li><a href="8trapy.html" id="trapy">8trapy</a></li>
   </ul>
 </div>
 
-<h1 id="h1">8trapy - A watch, an application, an assistant</h1>
+<div class="header1">
+  <h1 id="h1home">8trapy - A watch, an application, an assistant</h1>
+</div>
 
-<img src="klokke.png" id="klokka" alt="This is the clock that keeps track of your health,
+<img src="klokke.png" id="klokka" alt="This is the watch that keeps track of your health,
 by showing you data.">
 
+<div id="infotekst">
+  <p>8trapy is a watch that is designed for people with a drug addiction.
+    The watch is connected to an application that keeps track of your heart rate, sleep cycle,
+    reactivity and body temperature. Your user information will be available for an assistant
+    that will guide you and keep track of your data.
+  The assistant will help you set some personal goals and will lead you through your journey.
+  </p>
+</div>
 
-<p id="tekst1">8trapy is a watch that is designed for people with addictions.
-  The watch is connected to an application that keeps track of your heart rate, sleep cycle,
-  reactivity and body temperature. Your user information will be available for an assistant
-  that will guide you and keep track of your data.
-The assistant will help you set some personal goals and will lead you through your journey.
-</p>
-
-<div class="container">
-  <div class="center">
 <a href="8trapy.html" class="knapp">More information</a>
-</div>
-</div>
+
+<footer>
+  <div class="footertekst">
+    <left>By Wania Nabi and Fatima Talia Ahmed</left>
+  </div>
+</footer>
 
 </body>
 </html>

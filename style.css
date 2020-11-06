@@ -38,7 +38,7 @@ li a:hover {
 
 #h1home {
   text-align: center;
-  color: blue;
+  color: #fff;
   font-family: 'Helvetica Neue', sans-serif;
   font-size: 35px;
   font-weight: bold;
@@ -72,9 +72,9 @@ li a:hover {
 
 /* knapp forside*/
 .knapp {
-  background-color: red;
+  background-color: #ddd;
   border: none;
-  color: white;
+  color: black;
   padding: 16px 30px;
   text-align: center;
   text-decoration: none;
@@ -155,4 +155,39 @@ footer{
   width: 80%;
 }
 
-/*responsiv*/
+/*responsive*/
+@media only screen and (max-width:768px) {
+  /* For mobile phones: */
+
+  .scrollmenu {
+    width: 100%;
+  }
+
+  .header1, .header2 {
+    width:80%;
+    height: 170px;
+  }
+
+  #footertekst {
+    width: 63%;
+  }
+
+  #infotekst {
+    width: 80%;
+  }
+
+  .button {
+    width: 18%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+
+.header {
+  padding-top: 10px;
+  width: 80%;
+}
+
+#infotekst {
+  width: 60%;
+}
