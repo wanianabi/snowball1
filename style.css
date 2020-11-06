@@ -30,15 +30,12 @@ li a:hover {
 }
 
 /*header forside*/
-.header1{
- position: center;
- height: auto;
- widht: 100%
-}
+
+
 
 #h1home {
   text-align: center;
-  color: #fff;
+  color: black;
   font-family: 'Helvetica Neue', sans-serif;
   font-size: 35px;
   font-weight: bold;
@@ -142,13 +139,14 @@ display: block;
 }
 
 /*footer*/
-.footer{
+footer{
   height: 30px;
-  background-color: red;
+  background-color: lightgrey;
   color: black;
   padding: 10px;
-  margin-top: 200px;
+  margin-top: 90px;
   font-size: 20px;
+  width:100%;
 }
 
 #footertekst {
@@ -160,14 +158,10 @@ display: block;
   /* For mobile phones: */
 
   .scrollmenu {
-    width: 60%;
+    width: 100%;
     font-size: 25px;
   }
 
-  .header1, .header2 {
-    width:80%;
-    height: 170px;
-  }
 
   #footertekst {
     width: 60%;
@@ -187,11 +181,6 @@ display: block;
   .scrollmenu {
     width: 60%;
     font-size: 25px;
-  }
-
-  .header1, .header2 {
-    width:80%;
-    height: 170px;
   }
 
   #footertekst {
