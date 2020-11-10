@@ -57,6 +57,7 @@ li a:hover {
   width: 500px;
   margin: auto;
   font-size: 20px;
+  padding: 5px;
 }
 
 #bilde1 {
@@ -145,17 +146,27 @@ display: block;
 
   .scrollmenu {
     width: 100%;
-    font-size: 25px;
+  }
+
+  .scrollmenu li a{
+    font-size: 50px;
+  }
+  #logoen{
+    width: 200px;
   }
 
   #infotekst {
     width: 80%;
+    padding: 10px;
   }
 
   .knapp {
-    width: 18%;
+    width: 30%;
     margin-bottom: 50%;
+  }
 
+  #h1home{
+    margin-top: 150px;
   }
 }
 
