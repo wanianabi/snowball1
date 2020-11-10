@@ -91,7 +91,7 @@ li a:hover {
 .a1 {
   border: 3px solid grey;
   text-align: center;
-  width: 29%;
+  width: 30%;
   margin: left;
   margin-top: 100px;
   margin-bottom: 20px;
@@ -106,49 +106,17 @@ display: block;
  width: 30%;
 }
 
-.a2 {
-  border: 3px solid grey;
-  text-align: center;
-  width: 29%;
-  margin: left;
-  margin-bottom: 20px;
-  font-size: 20px;
-  margin-left: 250px;
-}
-
-#b2 {
-display: block;
- margin-left: 50%;
- margin-right: auto;
- width: 30%;
-}
-
-.a3 {
-border: 3px solid grey;
-text-align: center;
-width: 29%;
-margin: left;
-font-size: 20px;
-margin-left: 250px;
-}
-
-#b3 {
-display: block;
- margin-left: 50%;
- margin-right: auto;
- width: 30%;
-}
 
 
 /*responsive*/
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:734px) {
   /* For mobile phones: */
 
   .scrollmenu {
     width: 100%;
   }
 
-  .scrollmenu li a{
+  li a{
     font-size: 50px;
   }
   #logoen{
@@ -166,22 +134,16 @@ display: block;
   }
 
   #h1home{
+    margin-left: 40px;
+    margin-right: 40px;
     margin-top: 150px;
   }
-}
-
-@media only screen and (min-width: 734px) {
-
-  .scrollmenu {
-    width: 60%;
-    font-size: 25px;
+  #b1{
+    width: 50%;
   }
 
-  #infotekst {
-    width: 80%;
-  }
-
-  .knapp {
-    width: 18%;
+  .a1{
+    width: 50%;
+    margin-left: 15%;
   }
 }
