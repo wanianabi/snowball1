@@ -138,34 +138,14 @@ display: block;
  width: 30%;
 }
 
-/*footer*/
-footer{
-  height: 30px;
-  background-color: lightgrey;
-  color: black;
-  padding: 10px;
-  font-size: 20px;
-  width:100%;
-  margin-right: -10px;
-  float: right;
-}
-
-#footertekst {
-  width: 80%;
-}
 
 /*responsive*/
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:800px) {
   /* For mobile phones: */
 
   .scrollmenu {
     width: 100%;
     font-size: 25px;
-  }
-
-
-  #footertekst {
-    width: 60%;
   }
 
   #infotekst {
@@ -174,19 +154,16 @@ footer{
 
   .knapp {
     width: 18%;
-    padding-bottom: 2rem;
+    margin-bottom: 50%;
+
   }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 734px) {
 
   .scrollmenu {
     width: 60%;
     font-size: 25px;
-  }
-
-  #footertekst {
-    width: 60%;
   }
 
   #infotekst {
