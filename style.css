@@ -91,11 +91,11 @@
 .a1 {
   border: 3px solid grey;
   text-align: center;
-  width: 30%;
+  width: 50%;
   margin: left;
   margin-top: 100px;
   margin-bottom: 20px;
-  font-size: 20px;
+  font-size: 30px;
   margin-left: 250px;
 }
 
@@ -124,7 +124,7 @@ display: block;
   }
 
   #infotekst {
-    width: 80%;
+    width: 100%;
     padding: 10px;
   }
 
@@ -139,11 +139,12 @@ display: block;
     margin-top: 150px;
   }
   #b1{
-    width: 50%;
+    width: 60%;
   }
 
   .a1{
     width: 50%;
     margin-left: 15%;
+    font-size: 4vW;
   }
 }
