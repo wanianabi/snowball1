@@ -91,12 +91,12 @@
 .a1 {
   border: 3px solid grey;
   text-align: center;
-  width: 50%;
+  width: 80%;
   margin: left;
   margin-top: 100px;
   margin-bottom: 20px;
   font-size: 30px;
-  margin-left: 250px;
+  margin-left: 10%;
 }
 
 #b1 {
@@ -109,7 +109,7 @@ display: block;
 
 
 /*responsive*/
-@media only screen and (max-width:734px) {
+@media only screen and (max-width:769px) {
   /* For mobile phones: */
 
   .scrollmenu {
@@ -125,7 +125,8 @@ display: block;
 
   #infotekst {
     width: 100%;
-    padding: 4vW;
+    padding: 5px;
+    font-size: 4vW;
   }
 
   .knapp {
@@ -143,7 +144,7 @@ display: block;
   }
 
   .a1{
-    width: 50%;
+    width: 100%;
     margin-left: 15%;
     font-size: 4vW;
   }
