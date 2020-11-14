@@ -1,6 +1,6 @@
 
 /*scrollmenu*/
-/*blabla*/
+
 .scrollmenu ul {
   list-style-type: none;
   width: 100%;
@@ -34,8 +34,6 @@
 
 /*header forside*/
 
-
-
 #h1home {
   text-align: center;
   color: black;
@@ -59,7 +57,7 @@ div.infotekst {
   width: 80%;
   margin-bottom: 20px;
   margin-left: 10%;
-
+  font-size: 35px;
 }
 
 #bilde1 {
@@ -114,8 +112,12 @@ display: block;
     width: 100%;
   }
   div.infotekst h1{
-    font-size: 60px;
+    font-size: 35px;
   }
   div.infotekst p {
+    font-size: 25px;
+  }
+  #klokka{
+    width: 250px;
     font-size: 30px;
   }
