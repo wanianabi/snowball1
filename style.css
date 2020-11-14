@@ -57,7 +57,7 @@ div.infotekst {
   width: 80%;
   margin-bottom: 20px;
   margin-left: 10%;
-
+  font-size: 35px;
 }
 
 #bilde1 {
@@ -113,7 +113,6 @@ display: block;
   }
   div.infotekst h1{
     font-size: 35px;
-    color: red;
   }
   div.infotekst p {
     font-size: 25px;
