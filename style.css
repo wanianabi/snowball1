@@ -112,8 +112,9 @@ display: block;
 @media only screen and (max-width:769px) {
   /* For mobile phones: */
 
-  .scrollmenu {
+  .scrollmenu ul {
     width: 100%;
+
   }
 
   .scrollmenu li a{
