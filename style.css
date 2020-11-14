@@ -1,6 +1,6 @@
 
 /*scrollmenu*/
-.scrollmenu ul {
+ul {
   list-style-type: none;
   width: 100%;
   margin: 0;
@@ -9,11 +9,11 @@
     font-size: 25px;
 }
 
-.scrollmenu li {
+li {
   float: left;
 }
 
-.scrollmenu li a {
+li a {
   display: block;
   color: black;
   padding: 10px;
@@ -22,7 +22,7 @@
   font-size: 25px;
 }
 
-.scrollmenu li a:hover {
+li a:hover {
   background-color: #ddd;
 }
 
@@ -32,9 +32,6 @@
 }
 
 /*header forside*/
-
-
-
 #h1home {
   text-align: center;
   color: black;
@@ -107,6 +104,7 @@ display: block;
  position: center;
 }
 
+<<<<<<< Updated upstream
 @media only screen and (min-width:769px) {
   .home {
     display: block;
@@ -114,6 +112,29 @@ display: block;
   }
   div.infotekst h1{
     font-size: 60px;
+=======
+
+
+/*responsive*/
+@media only screen and (max-width:800px) {
+  /* For mobile phones: */
+  .scrollmenu ul {
+    width: 100%;
+  }
+
+  .scrollmenu li a{
+    font-size: 50px;
+  }
+
+  #logoen{
+    width: 200px;
+  }
+
+  #infotekst {
+    width: 100%;
+    padding: 5px;
+    font-size: 7vW;
+>>>>>>> Stashed changes
   }
   div.infotekst p {
     font-size: 35px;
