@@ -116,8 +116,12 @@ display: block;
     color: red;
   }
   div.infotekst p {
+<<<<<<< HEAD
     font-size: 25px;
   }
   #klokka{
     width: 250px;
+=======
+    font-size: 30px;
+>>>>>>> fdc9c215ca76e6c8ed31fe2278e28dbe94df5372
   }
