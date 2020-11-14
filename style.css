@@ -25,7 +25,7 @@
   background-color: #ddd;
 }
 
-.scrollmenu #logoen {
+#logoen {
   width: 120px;
   padding-top: 7px;
 }
@@ -110,20 +110,23 @@ display: block;
 
 
 /*responsive*/
-@media only screen and (max-width:769px) {
+@media only screen and (max-width:800px) {
   /* For mobile phones: */
+
+  .scrollmenu a:not(:first-child){
+  .scrollmenu a.logoen {
+    float: right;
+    display: block;
+
+  }
+  }
 
   .scrollmenu ul {
     width: 100%;
-
   }
 
   .scrollmenu li a{
-    font-size: 40px;
-  }
-
-  #logoen{
-    width: 200px;
+    font-size: 70px;
   }
 
   .infotekst {
