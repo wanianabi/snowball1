@@ -99,11 +99,11 @@
   margin-left: 10%;
 }
 
-#b1 {
+.b1 {
 display: block;
- margin-left: 50%;
- margin-right: auto;
+ margin:auto;
  width: 30%;
+ position: center;
 }
 
 
@@ -139,13 +139,13 @@ display: block;
     margin-right: 40px;
     margin-top: 150px;
   }
-  #b1{
+  .b1{
     width: 60%;
   }
 
   .a1{
     width: 100%;
-    margin-left: 15%;
     font-size: 4vW;
+    margin: 80px auto;
   }
 }
