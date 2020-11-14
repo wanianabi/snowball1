@@ -91,11 +91,11 @@ div.infotekst {
   border: 3px solid grey;
   text-align: center;
   width: 80%;
-  margin: left;
-  margin-top: auto;
+  margin: auto;
   margin-bottom: 20px;
   font-size: 30px;
   margin-left: 10%;
+  margin-top: 5%;
 }
 
 .b1 {
