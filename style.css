@@ -3,9 +3,11 @@
 .scrollmenu ul {
   list-style-type: none;
   width: 100%;
-  margin: 0;
+  margin-top: 10px;
   padding: 0;
   overflow: hidden;
+  margin-bottom: 50px;
+
 }
 
 .scrollmenu li {
@@ -90,7 +92,7 @@ div.infotekst {
   text-align: center;
   width: 80%;
   margin: left;
-  margin-top: 100px;
+  margin-top: auto;
   margin-bottom: 20px;
   font-size: 30px;
   margin-left: 10%;
@@ -121,6 +123,6 @@ div.infotekst p {
 
   .b1{
     width: 500px;
-    margin-bottom:-20px;
-  }
+}
+
 }
