@@ -1,3 +1,4 @@
+
 /*scrollmenu*/
 .scrollmenu ul {
   list-style-type: none;
@@ -46,19 +47,18 @@
 
 #klokka {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 18%;
+  margin: auto;
+  width: 40%;
 }
 
 /* div infotekst*/
-.infotekst {
+div.infotekst {
   border: 3px solid grey;
   text-align: center;
-  width: 700px;
-  margin: auto;
-  font-size: 30px;
-  padding: 5px;
+  width: 80%;
+  margin-bottom: 20px;
+  margin-left: 10%;
+
 }
 
 #bilde1 {
@@ -107,53 +107,14 @@ display: block;
  position: center;
 }
 
-
-
-/*responsive*/
-@media only screen and (max-width:800px) {
-  /* For mobile phones: */
-
-  .scrollmenu a:not(:first-child){
-  .scrollmenu a.logoen {
-    float: right;
+@media only screen and (min-width:769px) {
+  .home {
     display: block;
-
-  }
-  }
-
-  .scrollmenu ul {
     width: 100%;
   }
-
-  .scrollmenu li a{
-    font-size: 70px;
+  div.infotekst h1{
+    font-size: 60px;
   }
-
-  .infotekst {
-    width: 100%;
-    padding: 5px;
-    font-size: 4vW;
+  div.infotekst p {
+    font-size: 35px;
   }
-
-  .knapp {
-    width: 30%;
-    margin-bottom: 50%;
-  }
-
-  #h1home{
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top: 150px;
-  }
-
-  .b1{
-    width: 60%;
-  }
-
-  .a1{
-    width: 100%;
-    font-size: 4vW;
-    margin: 80px auto;
-
-  }
-}
