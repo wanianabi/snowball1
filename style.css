@@ -112,10 +112,17 @@ display: block;
 /*responsive*/
 @media only screen and (max-width:800px) {
   /* For mobile phones: */
+<<<<<<< HEAD
   .scrollmenu a:not(:first-child){
   .scrollmenu a.logoen {
     float: right;
     display: block;
+=======
+
+  .scrollmenu ul {
+    width: 100%;
+
+>>>>>>> 196f5b2182f92f06a7bc116a1db2f32303d67098
   }
   }
 
