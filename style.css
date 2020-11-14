@@ -55,7 +55,6 @@ div.infotekst {
   width: 80%;
   margin-bottom: 20px;
   margin-left: 10%;
-  font-size: 35px;
 }
 
 #bilde1 {
@@ -100,9 +99,10 @@ div.infotekst {
 .b1 {
 display: block;
  margin:auto;
- width: 30%;
+ width: 300px;
  position: center;
 }
+
 div.infotekst h1{
   font-size: 35px;
 }
@@ -115,11 +115,12 @@ div.infotekst p {
 }
 
 @media screen and(max-width: 800px) {
-  div.scrollmenu li a{
-    font-size: 50px;
+  .scrollmenu li a{
+    font-size: 60px;
   }
 
   .b1{
-    width: 50%;
+    width: 500px;
+    margin-bottom:-20px;
   }
 }
