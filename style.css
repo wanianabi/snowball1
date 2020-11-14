@@ -1,4 +1,3 @@
-
 /*scrollmenu*/
 
 .scrollmenu ul {
@@ -7,7 +6,6 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-    font-size: 25px;
 }
 
 .scrollmenu li {
@@ -105,15 +103,23 @@ display: block;
  width: 30%;
  position: center;
 }
+div.infotekst h1{
+  font-size: 35px;
+}
+div.infotekst p {
+  font-size: 25px;
+}
+#klokka{
+  width: 250px;
+  font-size: 30px;
+}
 
-@media only screen and (min-width:769px) {
-  div.infotekst h1{
-    font-size: 35px;
+@media screen and(max-width: 800px) {
+  div.scrollmenu li a{
+    font-size: 50px;
   }
-  div.infotekst p {
-    font-size: 25px;
+
+  .b1{
+    width: 50%;
   }
-  #klokka{
-    width: 250px;
-    font-size: 30px;
-  }
+}
